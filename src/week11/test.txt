@@ -1,7 +1,0 @@
-one	two	onetwo
-1	2	12
-hello 	world	hello world
-a	b	ab
-c	dd	cdd
-java	good	javagood
-Binas 	Khanal	Binas Khanal
