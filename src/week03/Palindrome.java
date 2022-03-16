@@ -9,7 +9,7 @@ public class Palindrome {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please input your potentional string: ");
 		String o = input.nextLine();
-//		o = o.toLowerCase();
+		o = o.toLowerCase();
 		StringBuffer sb = new StringBuffer(o);
 		sb = sb.reverse();
 		String t = sb.toString();
