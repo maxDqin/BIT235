@@ -6,32 +6,13 @@
 <body>
       <%@ taglib uri="http://java.sun.com/____/____/core" prefix="c"%>
 
-      <font size='5'>
-         Learning hours for:
-      </font>
-
-      <%-- Access the lastName and firstName request parameters
-           parameters by name --%>
+      <%-- Access the lastName, firstName and subject by name --%>
       <c:out value='${param.____}'/>, 
-      <c:out value='${____.____}'/> on
-      <c:out value='${____.____}'/>
-
-      <%-- Show all request parameters and their values --%>
-      <p><font size='5'>All Request Parameters: </font><p>
-      
-      <%-- For every String[] item of paramValues... --%>
-      <c:forEach var='parameter' items='${____}'> 
-         <ul>
-            <%-- Show the key, which is the request parameter name --%>
-            <li><b><c:out value='${____.key}'/></b>:</li>
-
-            <%-- Iterate over the values -- a String[] -- 
-                 associated with this request parameter --%>
-            <c:forEach var='value' items='${parameter.value}'>
-               <%-- Show the String value --%>
-               <c:out value='${____}'/>   
-            </c:forEach>
-         </ul>
+      <c:out value='${____.____}'/> is learning
+      <c:out value='${____.____}'/> by
+      <%-- paramValues.methods is a String [] of values --%>
+      <c:forEach var='method' items='${paramValues.____}'>
+          <c:out value='${____}'/>   
       </c:forEach>
    </body>
 </html>
