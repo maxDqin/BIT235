@@ -5,7 +5,7 @@
    </head>
 
    <body>
-      <form action='_____'>	
+      <form action='______'>	
  <table>
             <tr>
                <td>First Name:</td>
@@ -24,13 +24,12 @@
                   Select hours that you spend on this subject every week: 
                </td>
                <td>
-                  <select name='hours' size='7' multiple='false'>
-                     <option value='less than 1 h'>less than 1 h</option>
-                     <option value='1-2 hs'>1-2 hs</option>
-                     <option value='2-4 hs'>2-4 hs</option>
-                     <option value='4-6 hs'>4-6 hs</option>
-                     <option value='6-8 hs'>6-8 hs</option>
-                     <option value='more than 8 hs'> more than 8 hs </option>
+                  <select name='methods' size='7' multiple='true'>
+                     <option value='lecture'>lecture</option>
+                     <option value='tutorial'>tutorial</option>
+                     <option value='reading'>reading</option>
+                     <option value='coding'>coding</option>
+                     <option value='pairprogramming'>pair programming</option>
                   </select>
                </td>
             </tr>
